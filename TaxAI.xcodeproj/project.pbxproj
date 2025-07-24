@@ -29,9 +29,22 @@
 		612D302D2E1B599700809A42 /* TaxAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		610CEBA92E31F00D0021CBEE /* Exceptions for "TaxAI" folder in "TaxAI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 612D30122E1B599500809A42 /* TaxAI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		612D30152E1B599500809A42 /* TaxAI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				610CEBA92E31F00D0021CBEE /* Exceptions for "TaxAI" folder in "TaxAI" target */,
+			);
 			path = TaxAI;
 			sourceTree = "<group>";
 		};
@@ -399,6 +412,7 @@
 				DEVELOPMENT_TEAM = FMXFY4DT82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaxAI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "택스아이";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -431,6 +445,7 @@
 				DEVELOPMENT_TEAM = FMXFY4DT82;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaxAI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "택스아이";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
