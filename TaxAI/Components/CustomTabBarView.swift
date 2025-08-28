@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// 앱 하단 탭바
 struct CustomTabBarView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     let controller: WebViewController

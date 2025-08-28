@@ -8,6 +8,7 @@
 import WebKit
 import SwiftUI
 
+// 앞으로 가기, 뒤로 가기 등 웹 뷰 기능
 class WebViewController: ObservableObject {
     var webView: WKWebView?
 

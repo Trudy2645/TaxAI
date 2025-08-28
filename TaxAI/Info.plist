@@ -4,5 +4,7 @@
 <dict>
 	<key>CFBundleIconName</key>
 	<string>AppIcon</string>
+    <key>NSUserTrackingUsageDescription</key>
+    <string>맞춤형 광고 및 사용자 경험 개선을 위해 추적 권한이 필요합니다.</string>
 </dict>
 </plist>

@@ -8,6 +8,7 @@
 import SwiftUI
 import WebKit
 
+// TaxAIApp에 띄우는 화면
 struct TaxAIWebView: View {
     @StateObject private var controller = WebViewController()
     
